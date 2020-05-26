@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* CSS variabler */
+:root {
+    --main-bg-color: white;
+    --header-footer: #303333;
+    --header-footer-text-color: white;
+    --main--text--color: black;
+    --headline: 'Bebas Neue', cursive; 
+    --main-text: 'Open Sans', sans-serif;
+    --banner-bg-color: #efefef;
+    
+    }
+
+    /* Header */
+.header {
+    background-color: var(--header-footer);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+        
+    }
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: var(--header-footer);
+}
+
+.header li a {
+    color: var(--header-footer-text-color);
+    font-family: var(--headline);
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.header li a:hover {
+    background-color: #939696;
+}
+
+
+.header .logo {
+    display: block;
+    float: left;
+    padding: 20px 20px;
+    height: 25px;
+}
+
+/* Menu */
+.header .menu {
+    clear: both;
+    max-height: 0;
+}
+
+/* Menuikon */
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 2em;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 2em;
+}
+
+.header .menu-icon .navicon:before {
+    top: 6px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -6px;
+}
+
+/* Menuknap */
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+h1. {
+    
+    padding: 20;
+    font-family: var(--main-text);
+}
