@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* CSS variabler */
+:root {
+    --main-bg-color: white;
+    --header-footer: #303333;
+    --header-footer-text-color: white;
+    --main--text--color: black;
+    --headline: 'Bebas Neue', cursive; 
+    --main-text: 'Open Sans', sans-serif;
+    --banner-bg-color: #efefef;
+    --text-color: black;
+    
+    } 
+    
+/* om levering*/
+
+.om levering {
+    
+    background-color: var(--banner-bg-color);
+    font-family: var(--headline);
+    
+}
+/*banner*/
+
+.banner {
+    background-image: url(../image/Baggrundsbillede%20banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 600px;
+    
+}
+
+.overskrift {
+    
+    position: relative;
+    width: 600px;
+    left: 420px;
+}
+
+.banner-text {
+    
+    text-align: ceter;
+    position: absolute;
+        
+    
+}
+
+.fars-dag-information {
+    color: var(--header-footer-text-color);
+    font-family: var(--main-text);
+    margin-left: 330px;
+    margin-top: -170px;
+    font-size: 50px;
+    
+    
+    
+}
+
+.banner-text button {
+    background-color: var(--main-bg-color);
+    border: none;
+    color: var(--text-color);
+    font-family: var(--main-text);
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    left: 630px;
+    top: 70px;
+    
+  }
+
+.linje {
+    
+    width: 1395px;
+    border-top: 1px solid #afafaf;
+    margin-left: 20px;
+    
+}
+
+/* bestsellers */
+#bestsellers {
+    position: relative;
+    font-family: var(--main-text);
+    font-size: 60px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+    .lilla {
+        width: 250px;
+        margin-top: 60px;
+        margin-left: 100px;
+        
+    }
+    
+    .orange {
+        width: 250px;
+        margin-left: 550px;
+        margin-top: -515px;
+        float: left;
+    }
+    
+    .gul {
+        width: 270px;
+        margin-left: 1000px;
+        margin-top: -600px;
+        float: left; 
+        
+     {
+         
+    /* Footer */
+.h1 {
+    font-family: var(--headline);
+    font-size: 30px;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    background: var(--header-footer);
+    padding: 10px 20px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+/* Venstre kolonne */
+.info-icon img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+.info-icon li {
+    font-family: var(--main-text);
+    line-height: 1.5;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+/* Midter kolonne */
+.shop {
+    font-family: var(--main-text);
+    line-height: 1.7;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+/* Højre kolonne */
+.tilmelding {
+    font-family: var(--main-text);
+    line-height: 1.7;
+    font-size: 18px;
+    list-style-type: none;
+}
+         
+ .container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+         
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}         
+         
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=tilmeld] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=tilmeld]:hover {
+  opacity: 0.8;
+}         
+
+
+        
+ 

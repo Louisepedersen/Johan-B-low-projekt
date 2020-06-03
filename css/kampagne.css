@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* CSS variabler */
+:root {
+    --main-bg-color: white;
+    --header-footer: #303333;
+    --header-footer-text-color: white;
+    --main--text--color: black;
+    --headline: 'Bebas Neue', cursive; 
+    --main-text: 'Open Sans', sans-serif;
+    --banner-bg-color: #efefef;
+    --text-color: black;
+    
+    } 
+    
+/*banner*/
+
+.banner {
+    background-image: url(../image/Baggrundsbillede%20banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 600px;
+    
+}
+
+.overskrift {
+    
+    position: relative;
+    width: 600px;
+    left: 420px;
+}
+

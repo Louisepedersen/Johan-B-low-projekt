@@ -126,8 +126,111 @@
     top: 0;
 }
 
-h1. {
+#logo {
+    width: 90px;
+    height: auto;
     
-    padding: 20;
-    font-family: var(--main-text);
 }
+
+main {
+    
+    position: relative;
+    top: 67px;
+}
+
+main h1 {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-family: var(--main-text);
+    
+}
+
+    /* Footer */
+.h1 {
+    font-family: var(--headline);
+    font-size: 30px;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    background: var(--header-footer);
+    padding: 10px 20px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: var(--header-footer-text-color);
+}
+
+/* Venstre kolonne */
+.info-icon img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.info-icon li {
+    font-family: var(--main-text);
+    line-height: 1.5;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+/* Midter kolonne */
+.shop {
+    font-family: var(--main-text);
+    line-height: 1.7;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+/* Højre kolonne */
+.tilmelding {
+    font-family: var(--main-text);
+    line-height: 1.7;
+    font-size: 18px;
+    list-style-type: none;
+}
+         
+ .container {
+  padding: 20px;
+}
+         
+input[type=text], input[type=submit] {
+  width: 16%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}         
+         
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=tilmeld] {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+input[type=tilmeld]:hover {
+  opacity: 0.8;
+}  
+
+
