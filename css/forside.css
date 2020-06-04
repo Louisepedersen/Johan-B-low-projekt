@@ -100,113 +100,36 @@
 }
 
     .lilla {
-        width: 250px;
+        width: 280px;
         margin-top: 60px;
         margin-left: 100px;
         
     }
     
     .orange {
-        width: 250px;
-        margin-left: 550px;
-        margin-top: -515px;
-        float: left;
+        width: 290px;
+        margin-left: 160px;
+        margin-top: -350px;
+    
+       
     }
     
     .gul {
-        width: 270px;
+        width: 260px;
         margin-left: 1000px;
-        margin-top: -600px;
-        float: left; 
+        margin-top: -455px;
+        float: left;
         
-     {
+
+     }
+
+
+
+
+
+
          
-    /* Footer */
-.h1 {
-    font-family: var(--headline);
-    font-size: 30px;
-}
-
-.footer {
-    bottom: 0px;
-    width: 100%;
-    background: var(--header-footer);
-    padding: 10px 20px;
-}
-
-.footer li a {
-    text-decoration: none;
-    color: var(--main-text-color);
-}
-
-/* Venstre kolonne */
-.info-icon img {
-    width: 25px;
-    height: 25px;
-    padding-right: 10px;
-    padding-top: 4px;
-}
-
-.info-icon li {
-    font-family: var(--main-text);
-    line-height: 1.5;
-    font-size: 18px;
-    list-style-type: none;
-}
-
-.social-icon img {
-    width: 30px;
-    height: 30px;
-    margin: 0px 10px;
-}
-
-.social-icon li {
-    display: inline-block;
-}
-
-/* Midter kolonne */
-.shop {
-    font-family: var(--main-text);
-    line-height: 1.7;
-    font-size: 18px;
-    list-style-type: none;
-}
-
-/* Højre kolonne */
-.tilmelding {
-    font-family: var(--main-text);
-    line-height: 1.7;
-    font-size: 18px;
-    list-style-type: none;
-}
-         
- .container {
-  padding: 20px;
-  background-color: #f1f1f1;
-}
-         
-input[type=text], input[type=submit] {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}         
-         
-input[type=checkbox] {
-  margin-top: 16px;
-}
-
-input[type=tilmeld] {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-}
-
-input[type=tilmeld]:hover {
-  opacity: 0.8;
-}         
+      
 
 
         
