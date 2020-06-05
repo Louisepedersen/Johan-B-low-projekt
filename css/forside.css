@@ -99,6 +99,13 @@
     text-align: center;
 }
 
+#minebilleder {
+            display: flex; /*or inline-flex*/
+            position: relative;
+           flex-direction: row; 
+    
+        }
+
     .lilla {
         width: 280px;
         margin-top: 60px;
@@ -122,6 +129,8 @@
         
 
      }
+
+
 
 
 
