@@ -127,9 +127,7 @@
 }
 
 #logo {
-    width: 90px;
-    height: auto;
-    
+    margin-top: -10px;
 }
 
 main {
@@ -204,4 +202,30 @@ color: var(--header-footer-text-color);
 
 .rigt .box .content{
     text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+    /* Styling af header  */
+    .header li a {
+        padding: 25px 60px;
+        font-size: 30px;
+    }
+    
+    .header li {
+        float: left;
+    }
+    
+    .header .menu  {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    
+    .header .menu-icon .navicon {
+        display: none;
+    }
+    
+    .logo {
+        margin-top: 15px;
+    }
 }
