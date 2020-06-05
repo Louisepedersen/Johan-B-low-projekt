@@ -19,51 +19,36 @@
     --text-color: black;
     
     } 
-    
-/* om levering*/
-
-.om levering {
-    
-    background-color: var(--banner-bg-color);
-    font-family: var(--headline);
-    
-}
 /*banner*/
-
 .banner {
     background-image: url(../image/Baggrundsbillede%20banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 200px;;
-    
+    height: 200px;
+    margin-top: -30px;
 }
 
 .overskrift {
-    
     position: relative;
-    width: 600px;
-    left: 420px;
+    width: 50px;
+    margin-left: 20px
 }
 
 .banner-text {
-    
-    text-align: ceter;
-    position: absolute;
-        
-    
+    text-align: center;
+    position: relative; 
+    top: 30px;
 }
 
 .fars-dag-information {
     color: var(--header-footer-text-color);
     font-family: var(--main-text);
-    margin-left: 330px;
-    margin-top: -170px;
-    font-size: 50px;
-    
-    
-    
+    margin-left: 5px;
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
 }
 
 .banner-text button {
@@ -71,66 +56,126 @@
     border: none;
     color: var(--text-color);
     font-family: var(--main-text);
-    padding: 12px 18px;
+    padding: 10px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 18px;
     position: relative;
-    left: 630px;
-    top: 70px;
+    top: 10px;
     
   }
 
 .linje {
-    
-    width: 1395px;
+    width: 100%;
     border-top: 1px solid #afafaf;
-    margin-left: 20px;
-    
 }
 
 /* bestsellers */
 #bestsellers {
-    position: relative;
     font-family: var(--main-text);
-    font-size: 60px;
+    font-size: 36px;
     line-height: 1.5;
     text-align: center;
 }
 
-#minebilleder {
-            display: flex; /*or inline-flex*/
-            position: relative;
-           flex-direction: row; 
-    flex-wrap: wrap;
-    
-        }
-
     .lilla {
-        width: 280px;
-        margin-top: 60px;
-        margin-left: 100px;
-        
+    width: 250px;
+    margin-left: 60px;    
     }
     
     .orange {
-        width: 290px;
-        margin-left: 160px;
-        margin-top: -350px;
-    
-       
+        width: 250px;
+        margin-left: 60px;  
     }
     
     .gul {
-        width: 260px;
-        margin-left: 1000px;
-        margin-top: -455px;
-        float: left;
-        
-
+        width: 250px;
+        margin-left: 60px;  
      }
 
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    .banner {
+        height: 350px;
+    }
+    
+    .fars-dag-information {
+    font-size: 36px;
+    }
+    
+    .banner-text {
+        top: 80px;
+    }
+    
+    .banner-text button {
+        padding: 12px 20px;
+        font-size: 26px;
+        top: 26px;
+    }
+    
+    #minebilleder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .lilla {
+    width: 250px;
+    margin-left: 0px;    
+    }
+    
+    .orange {
+        width: 250px;
+        margin-left: 0px;  
+    }
+    
+    .gul {
+        width: 230px;
+        margin-left: 0px;  
+     }
+}
+
+/* Desktop */
+@media only screen and (min-width: 922px) {
+    .banner {
+        height: 550px;
+        margin-top: 20px;
+    }
+    
+    .fars-dag-information {
+    font-size: 55px;
+    }
+    
+    .banner-text {
+        top: 150px;
+        margin: 20px 90px;
+    }
+    
+    .banner-text button {
+        padding: 16px 26px;
+        font-size: 36px;
+    }
+    
+    #bestsellers {
+        font-size: 50px;
+    }
+    
+    .lilla {
+    width: 350px;
+    margin-left: 80px;    
+    }
+    
+    .orange {
+        width: 350px;
+        margin-left: 80px;  
+    }
+    
+    .gul {
+        width: 330px;
+        margin-left: 80px;  
+     }
+
+}
 
 
 
